@@ -1,0 +1,163 @@
+body {
+    margin: 0;;
+    font-family: "Times New Roman", Times, serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #303d4e;
+    }
+
+li a.brand{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+li a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: #111;
+}
+
+.content {
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    background-color: #57b99d;
+    padding-top: 30px;
+}
+.content h1{
+    color: white;
+    
+}
+.content h3{
+    color: rgb(233, 221, 221);
+    font-weight: 100;
+}
+.header h1,h4{
+    color: black;
+    text-align: center;
+}
+.picture{
+    margin-left: 28%;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px; 
+    
+}
+.grid-item {
+    padding: 20px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+
+}
+.about-grid{
+    margin-top: auto;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    background-color: #57b99d;
+}
+
+.about-grid h1{
+    color:#fff;
+    padding-top: 20px;
+}
+
+.about-grid-container {
+    margin-top: -500px;
+    display: grid;
+    height: 400px;
+    align-content: center;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    padding: 360px;
+}
+
+.about-grid-container div p {
+    color: white;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .footer{
+    
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    background-color: #303d4e;
+
+}
+
+.footer-grid{
+    display: grid;
+    align-content: center;
+    grid-template-columns: auto auto auto;
+    font-size: smaller;
+}
+.footer h1{
+    font-weight: 600;
+    color: #fff;
+}
+
+.footer p {
+    font-weight: 200;
+    color: #fff;
+}
